@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa|Krub|Quicksand');
+@import url('https://fonts.googleapis.com/css?family=Bitter');
+/* 
+
+font-family: 'Krub', sans-serif;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Comfortaa', cursive;
+
+starting scheme:
+dark bluegreen: #032D3F
+light bluegreen: #ACE5DE
+red: #FF6B35
+gray: #A7AFB7
+nice blue: #68A6D8
+
+/* ------------------------ UNIVERSAL STUFF ------------------------ */
+
+body {
+    font-family: 'Bitter', serif;
+    color: #032D3F;
+    background-color: #2F313F;
+    margin-top: 2em;
+    margin-left: 0;
+}
+
+h1, h2, h3 {
+    color: #032D3F;
+}
+
+a:link {
+    color: #68A6D8;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+a:visited {
+    color: #68A6D8;
+}
+
+a:hover {
+    color: #FF6B35;
+    text-shadow: 2px 2px 2px #f6ffff;
+}
+
+a:active {
+    color: #68A6D8;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* ------------------------ DIVS ------------------------ */
+
+#logo {
+    border-width: .5em;
+    margin: auto;
+    border-radius: .25em;
+    opacity: .25;
+    top: 1em;
+    width: 35em;
+    height: 10em;
+    background: #D5E1ED;
+    box-shadow: 4px 8px 20px #89A2B7;
+}
+
+#socialmedia {
+    position: absolute;
+    border-radius: .25em;
+    top: .5em;
+    left: 0em;
+    background:#D5E1ED;
+    height: 5em;
+    width: 15.5em;
+    box-shadow: 4px 8px 20px #89A2B7;
+    padding: .25em;
+}
+
+#nav {
+    position: absolute;
+    border-radius: .25em;
+    top: .5em;
+    right: 0em;
+    background:#D5E1ED;
+    height: 5em;
+    width: 15.5em;
+    box-shadow: 4px 8px 20px #89A2B7;   
+}
+
+#regis {
+    margin: auto; 
+    border-radius: .25em;
+    margin-top: 2em;
+    height: 20em;
+    width: 35em;
+    background: #D5E1ED;
+    box-shadow: 4px 8px 20px #89A2B7;
+}
+#registitle {
+    margin: 1em;
+    padding-right: .5em;
+    padding-left: .5em;
+    padding-top: .1em;
+    padding-bottom: .1em;
+    background: #68A6D8;
+    text-align: center;
+    font-size: 1.1em;
+    border-radius: 0em 0em .25em .25em;
+}
+
+#arrow {
+    position: absolute;
+    margin-left: 36em;
+    margin-top: 1em;
+    height: 10em;
+    width: 6em;
+    color: #FF6B35;
+}
+#arrow:hover {
+  -webkit-filter: drop-shadow(2px 5px 5px #89A2B7);
+  filter: drop-shadow(2px 5px 5px #89A2B7);
+}
+
+#about {
+    position: absolute;
+    margin-top: 10em;
+    text-align: center;
+    width: 100%;
+    height: 55em;
+    background: #68A6D8;
+}
+#travel {
+    position: relative;
+    margin-top: 55em;
+    width: 100%;
+    height: 55em;
+    background: #A7AFB7;
+}
+#contact {
+    position: relative;
+    margin-top: 0em;
+    width: 100%;
+    height: 40em;
+    background: #FF6B35;
+}
+        /* https://stackoverflow.com/questions/17217766/two-divs-side-by-side-fluid-display */
