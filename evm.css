@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css?family=K2D');
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+@import url('https://fonts.googleapis.com/css?family=Varela+Round');
+
+/* 
+
+colors:
+#f6ffff white neutral
+#212121 dark neutral
+
+#5EC2C2 turquoise
+#FCD05F mustard
+#7E7F9A muted purple
+#EF798A salmony pink        #EFB8C0 lighter shade
+
+#5DA7D8 blue
+#F55D3E deep orange
+#A288E3 pale purple
+
+/* ------------------------ UNIVERSAL STUFF ------------------------ */
+
+body {
+    font-family: 'Varela Round', sans-serif;
+    color: #7E7F9A;
+    background-color: #f6ffff;
+    margin-top: 2em;
+    margin-left: 0;
+}
+
+h1, h2, h3 {
+    font-family: 'Varela Round', sans-serif;
+}
+
+a:link {
+    color: #7E7F9A;
+    text-decoration: none;
+    transition: 0.4s all;
+}
+
+a:visited {
+    color: #7E7F9A;
+}
+
+a:hover {
+    color: #EF798A;
+    position: relative; 
+    top: -5px;
+    /* text-shadow: 2px 2px 2px rgba(94, 194, 194, 0.5); ADDING GLOW */
+}
+
+a:active {
+    color: #7E7F9A;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* ------------------------ EVM DIVS ------------------------ */
+
+#intro {
+    font-size: 2em;
+}
+
+#up {
+    font-size: 2em;
+    margin-top: 77em;
+    width: 6em;
+    height: 1em;
+    color: #f8ffff;
+    background: #5EC2C2;
+    border-radius: .5em;
+    padding: .5em;
+    transition: 0.3s;
+}
+
+#next {
+    font-size: 2em;
+    margin-right: 2em;
+    margin-top: 15em;
+    width: 6em;
+    color: #f8ffff;
+    background: #5EC2C2;
+    border-radius: .5em;
+    padding: .5em;
+    transition: 0.3s;
+}
+#next:hover {
+    color: #7E7F9A;
+}
+
+#about {
+    margin-left: 2em;
+}
+        /* https://stackoverflow.com/questions/17217766/two-divs-side-by-side-fluid-display */
+
+.container {
+    width: 100%;
+    height: 2em;
+    margin-left: 0;
+}
+
+#one {
+    width: 20em;
+    margin-left: 2em;
+    padding-left: 1em;
+    padding-right: 1em;
+    height: 20em;
+    float: left;
+    color: #f6f9f9;
+    background: #F9C44F;
+    border-radius: .5em;
+}
+#two {
+    width: 20em;
+    height: 20em;
+    display: inline-block;
+    margin-left: 1em;
+    padding-right: 1em;
+    padding-left: 1em;
+    float: left;
+    color: #f6f9f9;
+    background: #f48ba1;
+    border-radius: .5em;
+}
+#three {
+    width: 20em;
+    height: 20em;
+    display: inline-block;
+    margin-left: 1em;
+    padding-right: 1em;
+    padding-left: 1em;
+    float: left;
+    color: #f6f9f9;
+    background: #A288E3;
+    border-radius: .5em;
+}
+#five {
+    width: 95%;
+    margin-top: 2em;
+    margin-bottom: 3em;
+    margin-left: 2em;
+    padding-left: 1em;
+    height: 30em;
+    float: left;
+    color: #f6f9f9;
+    background: #5EC2C2;
+    border-radius: .5em; 
+}
+/* ------------------------ SEA DIVS ------------------------ */
+
+#first {
+    width: 95%;
+    padding-left: 1em;
+    height: 18.5em;
+    float: left;
+    color: #7E7F9A;
+    background: transparent;
+    border: .25em solid #FCD05F;
+    border-radius: .5em;
+}
+#mission-statement {
+    text-align: center;
+    position: absolute;
+    right: 3em;
+    top: 7.5em;
+    width: 20em;
+}
+#brief {
+    text-align: center;
+    position: absolute;
+    left: 4em;
+    width: 40em;
+}
+#second {
+    width: 95%;
+    margin-top: 2em;
+    padding-left: 1em;
+    height: 50em;
+    float: left;
+    color: #7E7F9A;
+    background: transparent;
+    border: .25em solid #FCD05F;
+    border-radius: .5em;
+}
+#leftlogo {
+    float:left;
+    width: 49%;
+}
+#rightlogo {
+    float: right;
+    width: 49%;
+}
+#left {
+    width: 49%;
+    float: left;
+    padding-left: 1em;
+
+}
+#right {
+    float: right;
+    width: 49%;
+}
+#third {
+    width: 95%;
+    text-indent: 1em;
+    margin-top: 75em;
+    padding-left: 1em;
+    height: 50em;
+    color: #7E7F9A;
+    background: transparent;
+    border: .25em solid #FCD05F;
+    border-radius: .5em;
+}
+#fourth {
+    width: 95%;
+    text-indent: 1em;
+    margin-top: 2em;
+    padding-left: 1em;
+    height: 50em;
+    color: #7E7F9A;
+    background: transparent;
+    border: .25em solid #FCD05F;
+    border-radius: .5em;
+}
+/* ------------------------ NAV BAR ------------------------ */
+
+#navbar > ul {
+    margin: 0;
+    padding: 0;
+    font-size: 1.2em;
+    list-style: none;
+    width: 100%;
+    text-align: center;
+}
+
+#navbar > ul > li {
+    margin: 0 2em;
+    display: inline-block;
+    float: right;
+    border-bottom: solid #5EC2C2 2px;
+    position: relative;
+}
+
+.nav-link {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    text-decoration: none;
+}
+
+/* ------------------------ EXTRA THINGS ------------------------ */
+
+#fancy {
+    color: #5EC2C2;
+    text-decoration: underline;
+}
+        /* https://stackoverflow.com/questions/40720838/particles-js-as-a-background */
+#particles-js {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -10;
+    top: 0;
+    left: 0;
+    background: #f6ffff;
+}
+#particles-js canvas {
+    display: block;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+    -webkit-transition: opacity .8s ease, -webkit-transform 1.4s ease;
+    transition: opacity .8s ease, transform 1.4s ease
+}
+
+.birb::before, .birb::after {
+    position: absolute;
+    content: '';
+    width: 1em;
+    height: 0.125em;
+    background-color: #5EC2C2;
+    transform-origin: 0 0;
+    animation: flap 0.5s infinite linear;
+}
+
+@keyframes flap {
+    from {
+        transform: rotate(30deg);
+    }
+    to {
+        transform: rotate(-30deg);
+    }
+}
+.birb::after {
+    transform-origin: 0 0;
+    right: 0;
+    transform: rotate(30deg);
+    animation-direction: alternate-reverse;
+}
+.birb::before {
+    transform-origin: 100% 0;
+    transform: rotate(-30deg);
+    animation-direction: alternate;
+}
+
+.birb{
+    width: 2em;
+    height: 2em;
+    top: 2;
+    left: 2;
+    position: absolute;
+}
