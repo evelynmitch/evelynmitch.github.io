@@ -102,10 +102,15 @@ html {
 
 #zero {
     width: 7em;
+    margin-left: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
     height: 20em;
-    background: #f9ffff;
-    margin-left: 2em;
     float: left;
+    color: #f6f9f9;
+    background: #F9C44F;
+    border-radius: .5em;
+    display: inline-block;
 }
 #one {
     width: 20em;
