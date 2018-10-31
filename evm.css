@@ -113,7 +113,7 @@ html {
     display: inline-block;
 }
 #one {
-    width: 20em;
+    width: 18em;
     margin-left: 1em;
     padding-left: 1em;
     padding-right: 1em;
@@ -125,7 +125,7 @@ html {
     display: inline-block;
 }
 #two {
-    width: 20em;
+    width: 18em;
     height: 20em;
     display: inline-block;
     margin-left: 1em;
@@ -137,7 +137,7 @@ html {
     border-radius: .5em;
 }
 #three {
-    width: 20em;
+    width: 18em;
     height: 20em;
     display: inline-block;
     margin-left: 1em;
