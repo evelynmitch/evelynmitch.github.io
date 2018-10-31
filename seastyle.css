@@ -58,7 +58,7 @@ html {
     border-radius: .25em;
     opacity: .25;
     top: 1em;
-    width: 35em;
+    width: 37em;
     height: 10em;
     background: #D5E1ED;
     box-shadow: 4px 8px 20px #89A2B7;
@@ -89,9 +89,11 @@ html {
 
 #regis {
     margin: auto; 
+    color: #2E5566;
+    padding: 0em 1em 1em 1em;
     border-radius: .25em;
     margin-top: 2em;
-    height: 20em;
+    height: 21em;
     width: 35em;
     background: #D5E1ED;
     box-shadow: 4px 8px 20px #89A2B7;
@@ -107,11 +109,37 @@ html {
     font-size: 1.1em;
     border-radius: 0em 0em .25em .25em;
 }
+#register {
+    width: 13em;
+    margin-left: 8.5em;
+    margin-top: -.5em;
+    text-align: center;
+    padding-right: .5em;
+    padding-left: .5em;
+    padding-top: .1em;
+    padding-bottom: .1em;
+    background: #BCBCBC;
+    font-size: 1.1em;
+    border-radius: .25em;
+}
+#register2 {
+    width: 13em;
+    margin-left: 8.5em;
+    margin-top: -3.9em;
+    text-align: center;
+    padding-right: .5em;
+    padding-left: .5em;
+    padding-top: .1em;
+    padding-bottom: .1em;
+    background: #68A6D8;
+    font-size: 1.1em;
+    border-radius: .25em;
+}
 
 #arrow {
     position: absolute;
     margin-left: 36em;
-    margin-top: 1em;
+    margin-top: 0em;
     height: 10em;
     width: 6em;
     color: #FF6B35;
@@ -120,27 +148,52 @@ html {
   -webkit-filter: drop-shadow(2px 5px 5px #89A2B7);
   filter: drop-shadow(2px 5px 5px #89A2B7);
 }
-
-#about {
+#details {
     position: absolute;
     margin-top: 10em;
     text-align: center;
     width: 100%;
-    height: 55em;
+    height: 38em;
     background: #68A6D8;
 }
-#travel {
+#organizer {
+    margin-left: 1em;
+    width: 35em;
+    background: #7EB2DD;
+    position: absolute;
+    margin-top: 0em;
+    padding: 1em;
+    padding-bottom: 2em;
+}
+#deets {
+    margin-left: 1em;
+    padding: 1em;
+    width: 35em;
+    position: absolute;
+    margin-top: 0em;
+    display: inline-block;
+    background: #7EB2DD;
+}
+#affiliates {
+    padding-top: .5em;
     position: relative;
-    margin-top: 55em;
+    margin-top: 34em;
     width: 100%;
     height: 55em;
     background: #A7AFB7;
 }
 #contact {
     position: relative;
+    padding-top: .5em;
     margin-top: 0em;
     width: 100%;
-    height: 40em;
+    height: 15em;
     background: #FF6B35;
+}
+#address {
+    padding: 1em;
+    margin-left: 2em;
+    display: inline-block;
+    background: #FF8154;
 }
         /* https://stackoverflow.com/questions/17217766/two-divs-side-by-side-fluid-display */
