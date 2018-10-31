@@ -94,15 +94,22 @@ html {
 }
         /* https://stackoverflow.com/questions/17217766/two-divs-side-by-side-fluid-display */
 
-.container {
+.gap {
     width: 100%;
-    height: 2em;
+    height: 1em;
     margin-left: 0;
 }
 
+#zero {
+    width: 7em;
+    height: 20em;
+    background: #f9ffff;
+    margin-left: 2em;
+    float: left;
+}
 #one {
     width: 20em;
-    margin-left: 2em;
+    margin-left: 1em;
     padding-left: 1em;
     padding-right: 1em;
     height: 20em;
@@ -110,6 +117,7 @@ html {
     color: #f6f9f9;
     background: #F9C44F;
     border-radius: .5em;
+    display: inline-block;
 }
 #two {
     width: 20em;
